@@ -1,12 +1,29 @@
+.navbar {
+
+position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 
 #navlist{
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 100;
   overflow: hidden;
   background-color: black;
 
 }
+
+h1{
+  padding-top: 5%;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+
 
 .container {
   display: grid;
@@ -14,10 +31,12 @@
   grid-gap: 10px;
   padding: 10px;
   align-items: center;
+
 }
 
 li {
   float: left;
+
 }
 
 li a {
@@ -42,13 +61,63 @@ li a:hover {
 .item2{
   grid-column: 3;
   grid-row: 2;
-  width: 60%;4
-
+  width: 60%;
+  background-color: black;
+  border-style: solid;
 }
 
 .item3{
   grid-row: 3;
+  background-color: black;
+  border-style: solid;
 }
+
+
+.item4{
+  grid-row: 4;
+  grid-column: 3;
+  align-items: center;
+  padding: 0;
+  padding-right: 0;
+};
+
+.item4 h3{
+  text-decoration: underline;
+
+}
+
+
+article{
+  background-color: black;
+  border-style: solid;
+}
+
+article h2{
+  margin: 0%;
+    text-decoration: underline;
+    padding-bottom: 5%
+}
+
+article h3{
+
+  padding-bottom: 2%;
+}
+article p{
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+article img{
+
+  margin: auto;
+  padding-top: 0%;
+  padding-right: 5%;
+  height: 700px;
+  border-style: none;
+  padding-left: 5%;
+  padding-bottom: 2%;
+}
+
 
 
 .otherbody{
@@ -56,6 +125,14 @@ li a:hover {
   margin-right: 15%;
 
 }
+
+
+a{
+  color: white;
+}
+
+
+
 
 #firstPara{
   font-size: 20px;
@@ -70,6 +147,7 @@ li a:hover {
 img{
   height: 370px;
 
+  border-style: solid;
 }
 
 
@@ -81,7 +159,6 @@ body{
 
 
 footer {
-   position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
@@ -89,9 +166,7 @@ footer {
    text-align: center;
 }
 
-footer a{
-  color: white;
-}
+
 
 .item3 h3{
   margin: 0px;

@@ -112,7 +112,7 @@ h2{
 .item2 section{
   background-color: #0E5C7D;
   border-style: solid;
-
+  margin-block-end: auto;
   padding: 2%;
 }
 
